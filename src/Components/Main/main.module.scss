@@ -1,0 +1,66 @@
+.main {
+    background-color: #f9f6f4;
+    padding-top: 52px;
+}
+
+.main__container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main__slider {
+    margin-bottom: 5%;
+}
+
+.main__text {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 0 15px 31px;
+    font-weight: 600;
+}
+
+
+.main__list {
+    padding: 0 31px;
+}
+
+.main__list_title {
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.main__list_description {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-bottom: 51px;
+}
+
+.main__list_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
+.main__list_svg{}
+
+.main__list_cities {
+    padding-left: 31px;
+}
+
+.main__list_cities_text {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.main__list_cities_row {
+}
+
+.main__list_cities_item {
+    display: inline-block;
+    margin-left: 8px;
+}
