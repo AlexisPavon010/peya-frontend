@@ -1,0 +1,72 @@
+.hero {
+    background-image: url('/assets/home-background.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    // margin-bottom: 20px;
+}
+
+.hero__container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+.hero__title {
+    font-size: 56px;
+    text-align: center;
+    margin: 32px auto 5px auto;
+}
+
+.hero__subtitle {
+    margin-bottom: 32px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.38;
+    text-align: center;
+    color: #fff;
+}
+
+.hero__input {}
+
+.hero__input_text {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero__input_container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    background: white;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.hero__input_icon {
+    padding: 14px;
+    height: 24px;
+    width: 24px;
+}
+
+.hero__input {
+    width: 100%;
+    outline: none;
+    border: 0px;
+    padding: 0;
+    margin-right: 16px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
