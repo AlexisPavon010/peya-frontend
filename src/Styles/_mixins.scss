@@ -1,0 +1,13 @@
+@import "./variables";
+
+@mixin breakpoint($size) {
+    @if $size=="" {
+        @content;
+    }
+
+    @else {
+        @media screen and (min-width: map-get($breakpoints, $size)) {
+            @content;
+        }
+    }
+}
