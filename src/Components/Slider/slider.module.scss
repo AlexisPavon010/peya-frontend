@@ -1,0 +1,33 @@
+.img {
+    width: 80px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.swiper__button_modified {
+    height: 38px !important;
+    width: 38px !important;
+    background: #fff !important;
+    padding: 3px !important;
+    border-radius: 50% !important;
+    color: black !important;
+    box-shadow: 0 9px 19px -9px rgb(65 61 75 / 50%) !important;
+
+    &:after {
+        display: none !important;
+    }
+}
+
+.swiper__button_modified_rotate {
+    height: 38px !important;
+    width: 38px !important;
+    background: #fff !important;
+    padding: 3px !important;
+    border-radius: 50% !important;
+    color: black !important;
+    box-shadow: 0 9px 19px -9px rgb(65 61 75 / 50%) !important;
+    transform: rotate(180deg) !important;
+    &:after {
+        display: none !important;
+    }
+}
